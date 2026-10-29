@@ -1,0 +1,23 @@
+[
+  {
+    "question": "What is the main objective of the paper?",
+    "expected_answer_keywords": ["objective", "goal", "improve", "retrieval"],
+    "expected_passages": [
+      "The main objective is to improve retrieval quality for technical documents."
+    ]
+  },
+  {
+    "question": "What limitations does the method have?",
+    "expected_answer_keywords": ["limitations", "tradeoff", "insufficient", "scalability"],
+    "expected_passages": [
+      "The method relies on retrieved passages and may struggle when the evidence is sparse or noisy."
+    ]
+  },
+  {
+    "question": "Is there enough evidence to answer this question?",
+    "expected_answer_keywords": ["insufficient", "not enough", "evidence"],
+    "expected_passages": [
+      "The evidence is insufficient to answer this question with confidence."
+    ]
+  }
+]
